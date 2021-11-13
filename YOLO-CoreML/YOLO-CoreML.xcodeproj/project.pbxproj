@@ -17,12 +17,10 @@
 		7BC25FA41EF1B7D1002ECBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC25FA31EF1B7D1002ECBBA /* ViewController.swift */; };
 		7BC25FA71EF1B7D1002ECBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC25FA51EF1B7D1002ECBBA /* Main.storyboard */; };
 		7BC25FA91EF1B7D1002ECBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC25FA81EF1B7D1002ECBBA /* Assets.xcassets */; };
-		D1F9F9FC2739F8D700A72179 /* Yolov4_mish_416.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1F9F9F62739F8D700A72179 /* Yolov4_mish_416.mlmodel */; };
+		D140802E273F581F0026064A /* Yolov2_tiny_h5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D140802D273F581F0026064A /* Yolov2_tiny_h5.mlmodel */; };
+		D1408035273F5ACF0026064A /* CVPixelBufferExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1408034273F5ACF0026064A /* CVPixelBufferExtension.swift */; };
 		D1F9F9FD2739F8D700A72179 /* Yolov4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1F9F9F72739F8D700A72179 /* Yolov4.mlmodel */; };
-		D1F9F9FE2739F8D700A72179 /* Yolov3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1F9F9F82739F8D700A72179 /* Yolov3.mlmodel */; };
-		D1F9F9FF2739F8D700A72179 /* Yolov4_tiny_mera.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1F9F9F92739F8D700A72179 /* Yolov4_tiny_mera.mlmodel */; };
 		D1F9FA002739F8D700A72179 /* Yolov4_tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1F9F9FA2739F8D700A72179 /* Yolov4_tiny.mlmodel */; };
-		D1F9FA012739F8D700A72179 /* Yolov4_leaky_416.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1F9F9FB2739F8D700A72179 /* Yolov4_leaky_416.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +36,10 @@
 		7BC25FA81EF1B7D1002ECBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BC25FAD1EF1B7D1002ECBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BC25FB51EF27C0D002ECBBA /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
-		D1F9F9F62739F8D700A72179 /* Yolov4_mish_416.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Yolov4_mish_416.mlmodel; path = ../../Models/Yolov4_mish_416.mlmodel; sourceTree = "<group>"; };
+		D140802D273F581F0026064A /* Yolov2_tiny_h5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Yolov2_tiny_h5.mlmodel; path = "../../../YOLOv4-CoreML-Converter/Yolov2_tiny_h5.mlmodel"; sourceTree = "<group>"; };
+		D1408034273F5ACF0026064A /* CVPixelBufferExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVPixelBufferExtension.swift; sourceTree = "<group>"; };
 		D1F9F9F72739F8D700A72179 /* Yolov4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Yolov4.mlmodel; path = ../../Models/Yolov4.mlmodel; sourceTree = "<group>"; };
-		D1F9F9F82739F8D700A72179 /* Yolov3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Yolov3.mlmodel; path = ../../Models/Yolov3.mlmodel; sourceTree = "<group>"; };
-		D1F9F9F92739F8D700A72179 /* Yolov4_tiny_mera.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Yolov4_tiny_mera.mlmodel; path = ../../Models/Yolov4_tiny_mera.mlmodel; sourceTree = "<group>"; };
 		D1F9F9FA2739F8D700A72179 /* Yolov4_tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Yolov4_tiny.mlmodel; path = ../../Models/Yolov4_tiny.mlmodel; sourceTree = "<group>"; };
-		D1F9F9FB2739F8D700A72179 /* Yolov4_leaky_416.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Yolov4_leaky_416.mlmodel; path = ../../Models/Yolov4_leaky_416.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +77,9 @@
 				372CB261209C9B0F00F501E3 /* AppDelegate.swift */,
 				7BC25FA81EF1B7D1002ECBBA /* Assets.xcassets */,
 				7BA1C6D91EF2B30200BB25EF /* CVPixelBuffer+Helpers.swift */,
+				D1408034273F5ACF0026064A /* CVPixelBufferExtension.swift */,
 				7BC25FAD1EF1B7D1002ECBBA /* Info.plist */,
-				D1F9F9F82739F8D700A72179 /* Yolov3.mlmodel */,
-				D1F9F9FB2739F8D700A72179 /* Yolov4_leaky_416.mlmodel */,
-				D1F9F9F62739F8D700A72179 /* Yolov4_mish_416.mlmodel */,
-				D1F9F9F92739F8D700A72179 /* Yolov4_tiny_mera.mlmodel */,
+				D140802D273F581F0026064A /* Yolov2_tiny_h5.mlmodel */,
 				D1F9F9FA2739F8D700A72179 /* Yolov4_tiny.mlmodel */,
 				D1F9F9F72739F8D700A72179 /* Yolov4.mlmodel */,
 				7BC25FA51EF1B7D1002ECBBA /* Main.storyboard */,
@@ -168,20 +162,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1F9FA012739F8D700A72179 /* Yolov4_leaky_416.mlmodel in Sources */,
 				D1F9FA002739F8D700A72179 /* Yolov4_tiny.mlmodel in Sources */,
-				D1F9F9FE2739F8D700A72179 /* Yolov3.mlmodel in Sources */,
+				D140802E273F581F0026064A /* Yolov2_tiny_h5.mlmodel in Sources */,
 				7BA1C6D01EF27DA000BB25EF /* VideoCapture.swift in Sources */,
 				7BA1C6DA1EF2B30200BB25EF /* CVPixelBuffer+Helpers.swift in Sources */,
 				372CB265209C9B2600F501E3 /* BoundingBox.swift in Sources */,
-				D1F9F9FF2739F8D700A72179 /* Yolov4_tiny_mera.mlmodel in Sources */,
+				D1408035273F5ACF0026064A /* CVPixelBufferExtension.swift in Sources */,
 				372CB266209C9B2600F501E3 /* Helpers.swift in Sources */,
 				372CB262209C9B0F00F501E3 /* AppDelegate.swift in Sources */,
 				D1F9F9FD2739F8D700A72179 /* Yolov4.mlmodel in Sources */,
 				7BA1C6D21EF2827800BB25EF /* UIImage+CVPixelBuffer.swift in Sources */,
 				7BC25FA41EF1B7D1002ECBBA /* ViewController.swift in Sources */,
 				7BA1C6D81EF2871600BB25EF /* YOLO.swift in Sources */,
-				D1F9F9FC2739F8D700A72179 /* Yolov4_mish_416.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
