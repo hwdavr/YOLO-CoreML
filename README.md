@@ -3,8 +3,8 @@
 This repo was forked and modified from [hollance/YOLO-CoreML-MPSNNGraph](https://github.com/hollance/YOLO-CoreML-MPSNNGraph). Some changes I made:
 
 1. Support mlmodel converted by coremltools 5.0.
-2. Support YOLOv3, Tiny YOLOv3, YOLOv4 and Tiny YOLOv4.
-3. Support different input size: 416, 512 or 608.
+2. Support any YOLO model converted by coremltools 5.0.
+3. Support different input model size: 416, 512 or 608.
 
 
 ## About YOLO object detection
